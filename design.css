@@ -1,0 +1,374 @@
+    /* nav section start in here */
+
+.nav {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 3%;
+
+}
+.logo {
+    padding-left: 10%;
+    padding-top: 1%;
+}
+.a0 { text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 50px;
+    }
+
+li { list-style-type: none;
+    padding: 10px;
+    }
+
+ul {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px; 
+}
+
+    /* nav section end in here */
+
+
+.our{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.services{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.graphic {
+    text-align: center;
+    border: 5px solid gray;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.development {
+    text-align: center;
+    border: 5px solid gray;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.tools {
+    text-align: center;
+    border: 5px solid gray;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    box-shadow: 5px 10px 18px #888888;}
+
+.development, .graphic, .tools p {
+   font-size: 120%;
+    }
+
+
+
+    /* about section start in here */
+
+.about {
+    background-image: url("pic/back.png");
+    background-repeat: no-repeat;
+    background-size:100% 65%;
+    padding-top: 8%;
+    }
+
+.text {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+
+.btn {
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 2px solid white;
+    text-transform: uppercase;
+    color: white;
+    margin: 3px;
+    background-color: black;
+    border-radius: 5px;
+     
+
+
+
+}
+
+.own {
+    padding-left: 10%;
+}
+
+.owntext{
+    display: flex;
+}
+
+.add {
+    font-size: 300%;
+    color: white;
+}
+    /* about section end in here */
+
+     /* 30 day section start in here */
+
+.textme {
+    font-size: 125%;
+    color: black;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 10%;
+    border-bottom: 2px solid lightgrey;
+}
+
+.get {
+    display: flex;
+    background-color: rgb(6, 146, 240);
+    color: white;
+    margin-top: 5%;
+}
+
+.gettext {
+    padding-top: 15px;
+    padding-left: 20%;
+    padding-right: 10%;
+    font-size: 250%;
+}
+
+.btn2 {
+    border-radius: 5px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    color: white;
+    background-color: orange;
+    padding: 10px 30px;
+    margin-right: 12%;
+    
+    }
+
+.btn3 {
+    text-align: center;
+    padding-top: 2%;
+    width: 500px;
+    padding-left: 5%;
+    padding-right: 4%;
+}
+
+    /* 30 day section end in here */
+
+
+    /* contact section start in here */
+.contactback{
+    background-image: url(pic/contact.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 8%;
+    margin-top: 5%;
+}
+
+
+.con {
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+     
+}
+
+.contact{
+    display: flex;
+    padding-top: 5%;
+}
+.con1 {
+    margin-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding-top: 5%;
+}
+
+.input {
+    padding-right: 30%;
+    color: white;
+}
+
+
+.a1 {
+    padding: 3%;
+    padding-right: 120%;
+    margin-top: 5%;
+    background-color:lightgrey;
+    border: 3px solid white;
+}
+.a2 {
+    padding: 3%;
+    padding-right: 120%;
+    margin-top: 5%;
+    background-color:lightgrey;
+    border: 3px solid white;
+}
+.a3 {
+    padding: 3%;
+    padding-right: 123%;
+    margin-top: 5%;
+    padding-bottom: 75%;
+    background-color:lightgrey;
+    border: 3px solid white;
+}
+.a4 {
+    padding: 3%;
+    margin-top: 5%;
+    background-color:lightgrey;
+    border: 3px solid white;
+}
+
+    /* contact section end in here */
+
+
+
+
+    /* footer me section start in here */
+.copy {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    opacity: 75%;
+    
+}
+
+.yellow {
+    color: yellow;
+    font-weight: bold;
+}
+footer{
+    padding-top: 5%;
+}
+
+    /* footer section end in here */
+
+
+    /* modal section end in here */
+
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #222;
+        min-height: 100vh;
+        align-items: center;
+    }
+
+
+  .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 700px;
+    padding: 1.5rem;
+    min-height: 250px;
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 15px;
+  }
+
+  
+  .modal .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .flex a {
+    text-decoration: none;
+
+  }
+  
+
+  .modal input {
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+  
+
+  .modal p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0.4rem 0 0.2rem;
+  }
+  
+
+
+  button {
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+  }
+  
+ 
+  .btn-close {
+    transform: translate(10px, -20px);
+    padding: 0.5rem 0.7rem;
+    background: #eee;
+    border-radius: 50%;
+  }
+
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  .a11 {
+    background-color:lightgrey;
+    border: 3px solid white;
+    width: 94%;
+
+}
+.a22 {
+    margin-top: 2%;
+    width: 94%;
+    background-color:lightgrey;
+    border: 3px solid white;
+}
+.a33 {
+    width: 96%;
+    margin-top: 2%;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color:lightgrey;
+    border: 3px solid white;
+    border-radius: 10px ;
+}
+
+
+
+
+
+
+
